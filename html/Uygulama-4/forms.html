@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemen üye ol</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        color: rgb(158, 42, 221);
+        background-color: rgb(232, 232, 223);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    p{
+        text-align: center;
+        margin-left: 10px;
+    }
+</style>
+
+<body>
+    <form>
+        <h1>
+            Lütfen Formu Eksiksiz Doldurunuz.
+        </h1>
+        <hr>
+        <h4>Hesap Bilgileriniz</h4>
+        <p>
+            Kullanıcı Adı: <input type="text" name="username" placeholder="Kullanıcı adı giriniz" required>
+        </p>
+        <p>
+            Eposta: <input type="email" name="eposta" placeholder="e-posta giriniz" required>
+        </p>
+        <p>
+            Parola: <input type="password" placeholder="parola giriniz" required>
+        </p>
+        <h4>Kişisel Bilgileriniz</h4>
+        <p>
+            Ad: <input type="text" name="ad" placeholder="Adınızı giriniz">
+        </p>
+        <p>
+            Soyad: <input type="text" name="soyad" placeholder="Soyadınızı giriniz">
+        </p>
+        <p>
+            Şehir:
+            <select name="sehir">
+                <option>Seçiniz</option>
+                <option>Ankara</option>
+                <option>İstanul</option>
+                <option>Kars</option>
+            </select>
+        </p>
+        <p>
+            Cinsiyetiniz:
+            <input type="radio" name="cinsiyet">Erkek
+            <input type="radio" name="cinsiyet">Kadın
+        </p>
+        <p>
+            Hobileriniz:
+            <input type="checkbox" name="hobi"> Sinema
+            <input type="checkbox" name="hobi"> Gezmek
+            <input type="checkbox" name="hobi"> Spor
+            <input type="checkbox" name="hobi"> Kitap
+        </p>
+        <p>
+            <input type="submit" value="Kaydet">
+        </p>
+    </form>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

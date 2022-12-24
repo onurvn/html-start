@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<style>
+    body{
+        font-size: 20px;
+        text-align:center;
+        font-family: arial;
+        border: 10px solid rosybrown;
+        background-color: rgb(207, 231, 230);
+        color: rgb(6, 6, 77);
+        margin: 50px;
+        padding: 50px;
+        margin-inline: 40px;
+    }
+    .onur{
+        background-color: rgb(165, 146, 146);
+    }
+    
+</style>
+
+<body>
+    <form action="/Home/Register">
+        <p>
+            Ad <input type="text" name="ad" placeholder="adınızı giriniz" required>
+        </p>
+        <p>
+            Soyad <input type="text" name="soyad" placeholder="soyadınızı giriniz" required>
+        </p>
+        <p>
+            Eposta <input type="email" name="email" placeholder="e-postanızı giriniz" required>
+        </p>
+        <p>
+            Beni Hatırla <input type="checkbox" name="beni hatırla">
+        </p>
+        <p>
+            Erkek <input type="radio" name="cinsiyet">
+            Kadın <input type="radio" name="cinsiyet">
+        </p>
+        <p>
+            Hobiler<br>
+
+            Sinema <input type="checkbox" name="hobi">
+            Spor <input type="checkbox" name="hobi">
+            Kitap okumak <input type="checkbox" name="hobi">
+        </p>
+        <p>
+            <select class="onur" name="sehir">
+                <option>Aksaray</option>
+                <option>Konya</option>
+                <option>Ankara</option>
+            </select>
+        </p>
+        <p>
+            <select class="onur" multiple name="sehirler">
+                <option>Aksaray</option>
+                <option>Konya</option>
+                <option>Ankara</option>
+            </select>
+        </p>
+        <input class="onur" type="submit" value="Kaydediniz">
+
+
+
+
+    </form>
+
+</body>
+
+</html>
